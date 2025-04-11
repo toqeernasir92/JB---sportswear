@@ -1,38 +1,25 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background-color: #f4f4f4;
 }
 header {
-    background: #111;
+    background-color: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 20px;
+    text-align: center;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-section {
+main {
     padding: 20px;
 }
-.product {
-    background: white;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-}
 footer {
-    background: #111;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
